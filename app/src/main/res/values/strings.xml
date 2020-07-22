@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NewsReader App</string>
+    <string name="title_activity_main">NewsReader</string>
+
+    <string name="top_stories">Top Stories</string>
+    <string name="india">India</string>
+    <string name="cricket">Cricket</string>
+    <string name="tab_text_1">Top Stories</string>
+    <string name="tab_text_2">Education</string>
+    <string name="tab_text_3">Technology</string>
+    <string name="tab_text_4">Business</string>
+    <string name="tab_text_5">Science</string>
+    <string name="tab_text_6">Education</string>
+    <string name="tab_text_7">Entertainment</string>
+    <string name="tab_text_8">Sports</string>
+    <string name="tab_text_9">Life and Style</string>
+    <string name="tab_text_10">Health</string>
+</resources>
