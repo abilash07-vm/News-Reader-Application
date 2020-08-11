@@ -77,11 +77,12 @@ public class PlaceholderFragment extends Fragment {
         recyclerView.setAdapter(adaptor);
         recyclerView.setLayoutManager(new LinearLayoutManager(container.getContext()));
 
-        new getNews().execute();
+
         pageViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
+                new getNews().execute();
             }
         });
         return root;

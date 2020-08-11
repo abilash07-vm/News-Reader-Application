@@ -23,6 +23,7 @@ public class PageViewModel extends ViewModel {
         }
     });
 
+
     public String getLink() {
         return link;
     }
